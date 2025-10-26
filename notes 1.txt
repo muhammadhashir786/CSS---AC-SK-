@@ -1,0 +1,50 @@
+css stands for cascading style sheet.
+it is not a programming language, it is a styling language.
+it is a language that is used to describe the style of a document.
+
+red is a happiness color
+blue is a stability color
+
+Syntax of CSS:
+
+Selector:
+
+we use selector to write css
+selector selects the html elements on which this style will be applied.
+
+Open Curly braces {:
+
+after selector, type open curly braces.
+
+Property & value:
+
+then css property and value in it.
+
+Close Curly braces }:
+
+then close the culy braces.
+
+Representation:
+
+selector {
+    property: value;
+}
+
+Code:
+
+h1 {
+    color: red;
+}
+
+if we don't write semi-colon at the end of value, then code will work but this is not good.
+this is the best praticse to write semi-colon at the end.
+
+Types of CSS:
+
+there are 3 type sof css:
+
+1. inline css
+2. internal css 
+3. external css 
+
+
