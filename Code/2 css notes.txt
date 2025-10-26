@@ -1,0 +1,23 @@
+CSS Color Property:
+
+defines the foreground color.
+
+foreground meaning?
+
+there are 2 types of things:
+
+1. foreground
+2. backgrouund
+
+the thing which is present in the front is called foreground.
+the thing which is present behind the front is called backgrouund.
+backgrouund is hidden behind the foreground.
+
+Examples of foreground:
+
+text, buttons, icons, link 
+
+there are many colors that we define by "name" of that color.
+
+we can also select the colors from color picker icon and suggestion after typing ":" after css property.
+

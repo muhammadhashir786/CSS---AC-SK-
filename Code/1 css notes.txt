@@ -1,0 +1,136 @@
+CSS:
+
+css stands for cascading style sheet.
+it is not a programming language, it is a styling language.
+it is a language that is used to describe the style of a document.
+
+red is a happiness color
+blue is a stability color
+
+Boiler plate code
+Emmet abbreviation
+
+Syntax of CSS:
+
+1. Selector:
+
+we use selector to write css
+selector selects the html elements on which this style will be applied.
+
+2. Open Curly braces {:
+
+after selector, type open curly braces.
+
+3. Property & value:
+
+then css property and value in it.
+
+4. Close Curly braces }:
+
+then close the culy braces.
+
+Representation:
+
+selector {
+    property: value;
+}
+
+first tell the property that you want to set to HTML elements
+then tell the value on which we want to set OR type the value of that property
+
+if we want to set the color of text, content or material then the name of the property is "color"
+
+Code:
+
+h1 {
+    color: red;
+}
+
+there is a color picker icon next to the value of property.
+we can also change the text color from this color picker icon
+semi-colon is the statement terminator.
+
+Note:   if we don't write semi-colon at the end of value, when we write single property value pair then code will work but this is not good.
+        this is the best praticse to write semi-colon at the end.
+
+Types of CSS:
+
+there are 3 type sof css:
+
+1. inline css - 
+2. internal css - 
+3. external css - create an external ".css" file and link this file to html file using <link> tag in the head section below the title tag.
+
+1. Inline CSS:
+
+use "style" attribute in start tag to define inline css.
+
+2. Internal CSS:
+
+use "style" tag in head section below the "title" tag to define internal css.
+
+3. External CSS:
+
+create an external CSS file with ".css" extension and link this file to html file by using "link" tag in the head section below the "title" tag.
+in this file, we only write CSS for a specific html file.
+we try to not write css in html file, write css in external file and this is the professional way to write css. 
+The most used "CSS type" is "External CSS".
+
+Note:
+
+if we create an external css file,
+and write css in it for html file,
+save this external css file
+then check output 
+
+and you will see the CSS did not applied in that html file
+because we created 2 files: 1 html file and 1 css file,
+and we did not link this external css file with html document, 
+so this is the reason css did not applied, 
+and when we link the css file to html file then css will be applied to that html file.
+
+Link External CSS File to HTML Document:
+
+to link the external css file to html document, we use link tag under the head section and below the title tag.
+
+Syntax: 
+
+<link rel="" href="">
+
+rel and href are the attributes of link tag.
+
+in "rel" attribute, we need to define the relation of external file with html document
+we write "stylesheet" in the value of "rel" attribute, because there is a relation of "stylesheet" betwen html file and external file.
+
+in "href" attribute, we need to define the address of external css file
+
+Representation:
+
+<link rel="define relation of external file with html file" href="address of external file">
+
+Code:
+
+<link rel="stylesheet" href="style.css">
+
+after that check the output of HTML file.
+
+Summarize:
+
+3 methods to write css for html file:
+
+inline 
+internal 
+external
+
+External CSS is most used and practical way to write CSS for html file.
+
+Note:
+
+those styles that are written in external css file, so we don't try to change those styles by inline or internal css,
+and if we try to change then always inline CSS get the first priority.
+
+and if we do this (change the same external styles with inline css), 
+then we got confused and will not remember that what styles defined in external and inline css for html elements, 
+and we can not do this in companies and large projects.
+
+Part Notes Completed Here!
