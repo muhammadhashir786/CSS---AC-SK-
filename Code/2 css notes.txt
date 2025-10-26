@@ -2,22 +2,48 @@ CSS Color Property:
 
 defines the foreground color.
 
+{
+
 foreground meaning?
 
-there are 2 types of things:
+there are 2 types of elements:
 
-1. foreground
-2. backgrouund
+1. foreground elements 
+2. backgrouund elements 
 
-the thing which is present in the front is called foreground.
-the thing which is present behind the front is called backgrouund.
-backgrouund is hidden behind the foreground.
+the element which is present in the front is called foreground.
 
-Examples of foreground:
-
+Examples of foreground elements:
 text, buttons, icons, link 
+
+the element which is present behind the front is called backgrouund.
+backgrouund element is hidden behind the foreground element.
+
+Examples of background elements:
+body, form, table, list, anchor 
+
+what are the list of foreground elements in HTML?
+what are the list of background elements in HTML?
+
+}
 
 there are many colors that we define by "name" of that color.
 
 we can also select the colors from color picker icon and suggestion after typing ":" after css property.
 
+CSS Background Color Property:
+
+defines the background color.
+
+Examples of background elements:
+body, form, table, list, anchor 
+
+set the backround color of body element/page.
+bydefault the backround color of "body" element is "white" but we change it with css.
+
+set the backround color of button element.
+
+Note:
+
+We select the button element 2 times in external css file, at first when we define the text color of button, second we define the background color of button.
+we instead of this, we can select element only 1 time and give multiple css properties to that element

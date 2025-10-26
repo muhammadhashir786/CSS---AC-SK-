@@ -1,0 +1,34 @@
+/* set the color for heading */
+
+h1 {
+    color: blue;
+}
+
+/* set the color for paragraph */
+
+p {
+    color: red;
+}
+
+/* set the color for button */
+
+button {
+    color: purple;
+}
+
+a {
+    color: rgb(0, 143, 14);
+}
+
+/* set the background color of page/body element */
+
+body {
+    background-color: black;
+}
+
+/* set the background color of button element */
+
+button {
+    background-color: greenyellow;
+}
+
