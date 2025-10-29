@@ -8,6 +8,10 @@ Types of Selectors:
 
 there are many types of Selectors in CSS:
 
+Universal Selector
+Element Selector
+
+
 1. Universal Selector:
 
 The asterisk "*" is called universal selector and it is the basic selector.
@@ -29,4 +33,99 @@ Representation:
 if we set any color for the text inside the universal selector,
 then the color sets for the whole HTML documents or all the elements that are present in the body of HTML document.
 
-2. 
+2. Element Selector:
+
+select the HTML elements in css by calling the name of HTML element is called Element Selector.
+
+Example:
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+if we define some styles in universal selector, 
+then we also define some styles for specific elements like h1 or p tag using element selector or any other selectors, 
+then the priority comes to element selector or some other selector not priority is universal selector.
+
+at first, if we set any property to any any element or all the elements, 
+and later we changed or define another value for that property in another line in css file, 
+so what I changed at last, that will be the priority in CSS and that will apply to the elements jis k lye mene define kia hai
+
+if there is more than 1 p tag in HTML document, then the style that we defined for p element, it will apply for all the p elements in the HTML document or the webpage.
+
+3. id selector:
+
+we can give or define an specific "id" to every HTML elements.
+and we can understand/take "id" as "another name" of every HTML elements.
+but the id should always be unique for all the HTML elements.
+id always define in the start tag of HTML elements.
+
+why we give the unique id to HTML elements?
+
+we give the unique id to every elements in the HTML document, so that we can target or define specific styles for only that "id element" in the CSS from all the other elements in all our the HTML document.
+
+we call the id selector with "#" in css file and then write the value of id.
+
+we can give same id for multiple elements, it will work but this is bad practise
+a professional coder does not do this, so it is not recommended.
+
+Sytnax:
+
+HTML code:
+
+    <p id="value">some content</p>
+
+CSS code:
+
+#value {
+
+}
+
+Example :
+
+if we have 3 paragraph elements in HTML document.
+then we give id "para1" to first paragraph element 
+give id "para2" to second paragraph element 
+and same as id "para3" to third paragraph element
+
+HTML Code:
+
+<p id="para1">this is some content of line 1</p>
+<p id="para2">this is some content of line 2</p>
+<p id="para3">this is some content of line 3</p>
+
+CSS Code:
+
+#para1 {
+    property: value;
+}
+
+#para2 {
+    property: value;
+}
+
+#para3 {
+    property: value;
+}
+
+Class Selector:
+
+same as id but opposite to id.
+we can give same class to multiple elements.
+we can target many different HTML elements by giving same class and define styles for all that elements at once.
+class is not unique for all the HTML elements.
+
+we can define same style for many elements by giving same class to that elements,
+then call that class in css file,
+and define the style for all that elements at once.
+
+we can call the class selector in css file by dot "." and then type the value of class and give style to it.  
+
+code available in html and css file!
+
+
+

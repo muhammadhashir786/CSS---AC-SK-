@@ -1,6 +1,50 @@
 /* Part 3: CSS Selectors */
 
+/* set the color blue for all the HTML elements using universal selector */
+
 * {
-    color: blue;
+  color: blue;
 }
+
+/* set the color red for only h1 elements using element selector */
+
+h1 {
+  color: red; /* and the priority comes to "element selector" or any "other selector" after universal selector, defining style to other selectors */
+}
+
+/* set the color orange to all the "p" elements in the webpage */
+
+p {
+    color: orange;
+}
+
+/* id selector */
+
+/* define style for id "para1"  */
+
+#para1 {
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+/* define style for id "para2"  */
+
+#para2 {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+
+}
+
+/* 1 - define style for id "para3"  */
+/* 2 - same id "para3" for 2 different elements */
+
+#para3 {
+    color: black;
+    background-color: gold;
+    padding: 5px;
+}
+
+
 
