@@ -2,24 +2,43 @@ CSS:
 
 css stands for cascading style sheet.
 it is not a programming language, it is a styling language.
-it is a language that is used to describe the style of a document.
+it is a language that is used to add and describe the styles of a document.
+if we want to add styles to a webpage, then we must add or write CSS for that webpage. 
+
+some information about the color:
 
 red is a happiness color
 blue is a stability color
 
+In HTML:
+
 Boiler plate code
 Emmet abbreviation
 
+create an HTML file
+to write css, we need an HTML file
+without html file, css have not been written
+
 Syntax of CSS:
+
+the syntax of css consists into 3 things:
+
+1. Selector
+2. curly bracses {}
+3. property and value
 
 1. Selector:
 
-we use selector to write css
-selector selects the html elements on which this style will be applied.
+Selector is used to select HTML elements in css file.
+selector selects the html elements on which those styles will be applied, that we will define.
 
 Syntax:
 
 selector
+
+selector kuch bhi ho sakta hai "h1" ya "p" ya kuch or.
+
+the above 2 are the selectors, that we write in css to select the HTML elements then give style to the elements.
 
 2. Open Curly braces "{":
 
@@ -31,16 +50,18 @@ selector {
 
 3. Property & value:
 
-then css property and value in it.
+inside the open curly braces, we define css "property and value" to define style for HTML elements.
+after property must write colon ":" 
+after value must write semi-colon ";" otherwise it gives error at the end, semi-colon is the statement terminator.
 
 Syntax:
 
 selector {
     property: value;
 
-4. Close Curly braces }:
+4. Close Curly braces "}":
 
-then close the culy braces.
+after property and value, close the culy braces.
 
 Syntax:
 
@@ -48,11 +69,14 @@ selector {
     property: value;
 }
 
-first, tell the property that you want to set to HTML element
-then tell the value of property on which we want to set the HTML element OR type the value of that property
+first, define the property that you want to set to HTML element
+then define the value of that property on which we want to set the HTML element.
+
+Example:
 
 if we want to set the color of any text, content or material then the name of the css property is "color".
-first type the property inside the selector, then type the value of color property, which color you want to set. 
+
+first type the property inside the "selector" and betwen "{}", then type the "value" of "color property", which color you want to set. 
 
 Code:
 
@@ -60,35 +84,44 @@ h1 {
     color: red;
 }
 
-there is a color picker icon next to the value of property.
-we can also change the text color from this color picker icon
-semi-colon is the statement terminator.
+the above code will set the "h1" heading color to red.
 
-Note:   if we don't write semi-colon at the end of "value", when we write single property value pair then code will work but this is not good.
-        this is the best praticse to write semi-colon at the end.
+there is a "color picker icon" next to the "value of property".
+we can also change the color of "text" from this "color picker icon"
+
+Note:
+
+if we don't write semi-colon at the end of "value", when we write single property value pair then code will work but this is not good.
+but when we write more than 1 property value pair then our code may be gives error
+so this is the best praticse to write semi-colon at the end.
 
 Types of CSS:
 
-there are 3 type sof css:
+there are 3 types of css:
 
-1. inline css - 
-2. internal css - 
+1. inline css 
+2. internal css  
 3. external css - create an external ".css" file and link this file to html file using <link> tag in the head section below the title tag.
 
 1. Inline CSS:
 
-use "style" attribute in start tag to define inline css.
+use "style" attribute in start tag to define style, it is called Inline CSS.
+
+code of inline css is present in the "1 inline css.html" file
 
 2. Internal CSS:
 
-use "style" tag in head section below the "title" tag to define internal css.
+use "style" tag, below the "title" tag in head section to define the "internal css".
 
 3. External CSS:
 
 create an external CSS file with ".css" extension and link this file to html file by using "link" tag in the head section below the "title" tag.
-in this file, we only write CSS for a specific html file.
-we try to not write css in html file, write css in external file and this is the professional way to write css. 
-The most used "CSS type" is "External CSS".
+
+in this file, we only write CSS for a single html file.
+
+we try to not write css in html file, write css in external file and this is the most uesd and professional way to write css. 
+
+The most used CSS type is "External CSS".
 
 Note:
 
@@ -97,9 +130,9 @@ and write css in it for html file,
 save this external css file
 then check output 
 
-and you will see the CSS did not applied in that html file
+so you will see the CSS did not applied in that html file,
 because we created 2 files: 1 html file and 1 css file,
-and we did not link this external css file with html document, 
+and we did not link this external css file with our html document jisko ham style dena chahte hn, 
 so this is the reason css did not applied, 
 and when we link the css file to html file then css will be applied to that html file.
 
