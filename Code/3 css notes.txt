@@ -8,9 +8,11 @@ Types of Selectors:
 
 there are many types of Selectors in CSS:
 
-Universal Selector
-Element Selector
+1. Universal Selector
+2. Element Selector
+3. id and class Selector
 
+these 3 selectors are the most used selectors in css
 
 1. Universal Selector:
 
