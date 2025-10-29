@@ -17,28 +17,42 @@ Syntax of CSS:
 we use selector to write css
 selector selects the html elements on which this style will be applied.
 
-2. Open Curly braces {:
+Syntax:
+
+selector
+
+2. Open Curly braces "{":
 
 after selector, type open curly braces.
+
+Syntax:
+
+selector {
 
 3. Property & value:
 
 then css property and value in it.
 
+Syntax:
+
+selector {
+    property: value;
+
 4. Close Curly braces }:
 
 then close the culy braces.
 
-Representation:
+Syntax:
 
 selector {
     property: value;
 }
 
-first tell the property that you want to set to HTML elements
-then tell the value on which we want to set OR type the value of that property
+first, tell the property that you want to set to HTML element
+then tell the value of property on which we want to set the HTML element OR type the value of that property
 
-if we want to set the color of text, content or material then the name of the property is "color"
+if we want to set the color of any text, content or material then the name of the css property is "color".
+first type the property inside the selector, then type the value of color property, which color you want to set. 
 
 Code:
 
@@ -50,7 +64,7 @@ there is a color picker icon next to the value of property.
 we can also change the text color from this color picker icon
 semi-colon is the statement terminator.
 
-Note:   if we don't write semi-colon at the end of value, when we write single property value pair then code will work but this is not good.
+Note:   if we don't write semi-colon at the end of "value", when we write single property value pair then code will work but this is not good.
         this is the best praticse to write semi-colon at the end.
 
 Types of CSS:

@@ -1,8 +1,8 @@
 Part 3: CSS Selectors
 
 if we want to add style to any HTML element, 
-then first we need to select that HTML element in CSS file, 
-then define css property and value for that HTML element
+then first we need to select that HTML element in CSS file,
+then define CSS property and value for that HTML element.
 
 Types of Selectors:
 
@@ -10,12 +10,23 @@ there are many types of Selectors in CSS:
 
 1. Universal Selector:
 
-asterisk is called universal selector.
-universal selector selects all the HTML elements under the body itself body tag.
-if we give style to the universal selector.
+The asterisk "*" is called universal selector and it is the basic selector.
 
 Syntax:
 
 * {}
+
+universal selector selects all the HTML elements under the body and itself body tag.
+universal selector sets the style for the whole document.
+if we give any style to the universal selector then it will apply all the elements that are present in the body of HTML document.
+
+Representation:
+
+* {
+    property: value;
+}
+
+if we set any color for the text inside the universal selector,
+then the color sets for the whole HTML documents or all the elements that are present in the body of HTML document.
 
 2. 
