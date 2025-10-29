@@ -24,15 +24,16 @@ a {
 
 /* 2.1 */
 
-/* set the background color of page/body element */
-
-body {
-    background-color: black;
-}
-
 /* set the background color of button element */
 
 button {
     background-color: greenyellow;
 }
 
+/* 2.2 */
+
+/* set the background color of page dark pink using RGB value */
+
+body {
+    background-color: rgb(191, 34, 115);
+}

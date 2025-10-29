@@ -72,7 +72,7 @@ another 1 more but it is not important so much:
 
 3. HSLA
 
-RGB Color:
+1. RGB Color System:
 
 first understand the Primary colors.
 
@@ -157,4 +157,46 @@ rgb(255, 180, 0)
 if we decrease the value of red and increase the value of green, then green shade will be formed: 
 
 rgb(180, 255, 0)
+
+2.3 Starts Now!
+
+2. Hex Color System:
+
+it is a Hexadecimal color system.
+hex color system also defines rgb colors, but it is the short form to write rgb colors, value set the same as rgb colors. 
+in hex color system, there are numbers limit from 0 to 15.
+
+in maths, there are digits from 0 to 10.
+after 9, there is digit 10 which is 1 and 0. 
+and this is called decimal in maths, because in the word decimal, "dec" means 10.
+decimal are like this: 4754
+
+in binary, there are 2 digits: o and 1, and all the other digits are formed from these 2 digits.
+binary numbers like this: 0100011010111
+
+there are Hexadecimal number system:
+hexa means 6 and decimal means 10 
+means there are 16 digits in hexadecimal number system
+digits present in this number system more than maths.
+
+decimal digits are from 0 to 9 
+and hexa digits are from a to f means a,b,c,d,e,f
+a means 10 
+b means 11 
+b means 15
+
+in rgb color system, we can set the range of red, green and blue color from 0 to 255.
+
+hex color value starts with "#", otherwise color does not work.
+in hex color system, we write 0 using 00 and 255 using ff.
+if we write "ff 00 00", then it is red color because quantity of green and blue color is 0.
+if we write green color then: 00ff00
+if we write blue color then: 0000ff
+
+practise: 
+
+set the background of webpage to yellow using hex color value.
+
+
+
 
