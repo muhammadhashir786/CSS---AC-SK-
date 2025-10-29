@@ -136,20 +136,21 @@ and we did not link this external css file with our html document jisko ham styl
 so this is the reason css did not applied, 
 and when we link the css file to html file then css will be applied to that html file.
 
-Link External CSS File to HTML Document:
+Link "External CSS File" to HTML Document:
 
-to link the external css file to html document, we use link tag under the head section and below the title tag.
+to link the external css file to html document, use the html link tag under the head section and below the title tag.
+link is a self closing tag, it does not have an empty tag 
 
-Syntax: 
+Syntax:
 
 <link rel="" href="">
 
-rel and href are the attributes of link tag.
+"rel" and "href" are the attributes of "link" tag.
 
-in "rel" attribute, we need to define the relation of external file with html document
-we write "stylesheet" in the value of "rel" attribute, because there is a relation of "stylesheet" betwen html file and external file.
+in "rel" attribute, we need to define the "relation of external file" with "html document",
+we write "stylesheet" in the value of "rel" attribute, because there is a relation of "stylesheet" betwen "html" file and "external" file.
 
-in "href" attribute, we need to define the address of external css file
+in "href" attribute, we need to define the address/name/path of external css file
 
 Representation:
 
@@ -165,19 +166,20 @@ Summarize:
 
 3 methods to write css for html file:
 
-inline 
-internal 
-external
+inline - use style attribute  
+internal - use style tag
+external - create external file and link it with html document using link tag
 
-External CSS is most used and practical way to write CSS for html file.
+External CSS is the most used and practical method to write CSS for html file.
 
 Note:
 
-those styles that are written in external css file, so we don't try to change those styles by inline or internal css,
-and if we try to change then always inline CSS get the first priority.
+we don't try to change the styles by "inline" or "internal" css, that are written in "external css file",
+and if we try to change it with inline or internal css then always inline or internal CSS get the first priority and if internal or inline css, then only inline css will be the highest priority.
 
 and if we do this (change the same external styles with inline css), 
 then we got confused and will not remember that what styles defined in external and inline css for html elements, 
 and we can not do this in companies and large projects.
+we try to use only external css
 
-Part Notes Completed Here!
+Part 1 Notes Completed Here!

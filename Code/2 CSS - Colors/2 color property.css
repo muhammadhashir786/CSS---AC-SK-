@@ -16,6 +16,8 @@ button {
     color: purple;
 }
 
+/* set the color for links by color picker icon */
+
 a {
     color: rgb(0, 143, 14);
 }

@@ -1,4 +1,4 @@
-Part 3: CSS Selectors
+Part 2: CSS Selectors
 
 if we want to add style to any HTML element, 
 then first we need to select that HTML element in CSS file,
