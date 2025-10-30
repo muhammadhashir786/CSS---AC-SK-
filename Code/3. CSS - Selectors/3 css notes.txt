@@ -2,11 +2,11 @@ Part 2: CSS Selectors
 
 if we want to add style to any HTML element, 
 then first we need to select that HTML element in CSS file,
-then define CSS property and value for that HTML element.
+then define any CSS property and value for that HTML element.
 
 Types of Selectors:
 
-there are many types of Selectors in CSS:
+there are many Selectors in CSS:
 
 1. Universal Selector
 2. Element Selector
@@ -16,7 +16,7 @@ these 3 selectors are the most used selectors in css
 
 1. Universal Selector:
 
-The asterisk "*" is called universal selector and it is the basic selector.
+The asterisk "*" is called universal selector and it is the basic selector in css.
 
 Syntax:
 
@@ -24,7 +24,7 @@ Syntax:
 
 universal selector selects all the HTML elements under the body and itself body tag.
 universal selector sets the style for the whole document.
-if we give any style to the universal selector then it will apply all the elements that are present in the body of HTML document.
+if we give any style to the universal selector then it will apply to all the elements that are present in the body of HTML document.
 
 Representation:
 
@@ -33,11 +33,13 @@ Representation:
 }
 
 if we set any color for the text inside the universal selector,
-then the color sets for the whole HTML documents or all the elements that are present in the body of HTML document.
+then the text color sets for the whole HTML documents or all the elements that are present in the body of HTML document.
+if you want to set the font style for the whole HTML document, then define font style property in the universal selector.
 
 2. Element Selector:
 
 select the HTML elements in css by calling the name of HTML element is called Element Selector.
+if we type h1 or p, it selects all the h1 or p elements in the HTML document.
 
 Example:
 
@@ -51,13 +53,15 @@ p {
 
 if we define some styles in universal selector, 
 then we also define some styles for specific elements like h1 or p tag using element selector or any other selectors, 
-then the priority comes to element selector or some other selector not priority is universal selector.
+then the priority comes to element selector or some other, not priority is universal selector.
+css line by line style apply krta hai 
+css m jo cheez bad m define ki jaati hai uski ziada priority hoti hai
 
 at first, if we set any property to any any element or all the elements, 
 and later we changed or define another value for that property in another line in css file, 
-so what I changed at last, that will be the priority in CSS and that will apply to the elements jis k lye mene define kia hai
+so what I changed at last, that will be the highest priority in CSS and that will apply to the elements jis k lye mene define kia hai
 
-if there is more than 1 p tag in HTML document, then the style that we defined for p element, it will apply for all the p elements in the HTML document or the webpage.
+if there is more than 1 "p" tag in HTML document, then the style that we defined for "p" element, it will apply for all the "p" elements in the HTML document or the webpage.
 
 3. id selector:
 

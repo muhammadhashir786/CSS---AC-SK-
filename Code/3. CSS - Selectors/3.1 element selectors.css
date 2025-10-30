@@ -1,23 +1,32 @@
-/* Part 3: CSS Selectors */
+/* Part 3: Universal Selector */
 
 /* set the color blue for all the HTML elements using universal selector */
 
 * {
-  color: blue;
+    color: blue;
 }
 
-/* set the color red for only h1 elements using element selector */
+/* set the color red for only h1 elements using element selector */ 
 
 h1 {
   color: red; /* and the priority comes to "element selector" or any "other selector" after universal selector, defining style to other selectors */
 }
 
+/* css apply styles line by line */
+/* if we define same style after some lines, then last style will preferred */
+
 /* set the color orange to all the "p" elements in the webpage */
 
 p {
-    color: orange;
+    color: green;
 }
 
+/* set the color purple to for buttons */
+
+button {
+  background-color: purple;
+  color: white;
+}
 /* id selector */
 
 /* define style for id "para1"  */
