@@ -1,0 +1,39 @@
+/* Chapter 5: Text Property */
+
+/* Text Align */
+
+/* 1 - give text-align center to h1 */
+
+h1 {
+    text-align: center;
+}
+
+/* 2 - give text-align right to p */
+
+p {
+    text-align: right;
+}
+
+/* 3 - give text-align right to span */
+
+span {
+    text-align: left;
+}
+
+/* 4 - give text-align start to div  */
+
+div {
+    text-align: start;
+}
+
+/* 5 - give text-align end to h2  */
+
+h2 {
+    text-align: end;
+}
+
+/* 6 - give text-align justify to h3  */
+
+h4 {
+    text-align: justify;
+}

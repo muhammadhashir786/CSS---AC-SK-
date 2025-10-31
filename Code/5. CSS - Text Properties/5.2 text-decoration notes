@@ -1,0 +1,23 @@
+Chapter 5: CSS Text Properties
+
+2. text-decoration-line property:
+
+the text-decoration-line property defines the different types of lines decoraion in text.
+
+4 Values:
+
+none - which is bydefault
+underline - display bottom of text 
+overline - display top of text
+line-through - cut the text from center
+
+text-decoration-line property does not used so much
+
+but if we see the anchor tag, then bydefault anchor tag has a "text-decoraion-line" property set to "underline". 
+all the links will display in the webpage with "underlined" bydefault.
+
+and if we don't want this underline in anchor tag 
+then select the anchor tag in css file and set "text-decoraion-line" property to "none".
+after that link will display without underline.
+
+
