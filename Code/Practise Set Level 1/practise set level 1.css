@@ -5,13 +5,16 @@
   /* color: white; */
 
   /* use ctrl + / to comment or uncomment in css  */
-  /* comments are those lines of code that does not execute */
+  /* comments are those lines of code that do not execute */
 
   /* do comment manually: write anything between below characters */
-  /* content place here that will comment */
+  /* content content place here */
+
 }
 
 /* Question 2 */
+
+/* method 1 : give style by giving same class to multiple elements */
 
 /* .heading {
     color: red;
@@ -20,6 +23,8 @@
 /* we can do 1 more thing to give color red to 3 headings h1, h2, h3 */
 /* we just comment the above code */
 /* and define the same style as above for 3 headings in another way */
+
+/* method 2 : give style by selecting multiple heading elements at once */
 
 h1,
 h2,

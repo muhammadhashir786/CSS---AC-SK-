@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS | Part 3 - CSS Selectors | Element Selector</title>
-    <link rel="stylesheet" href="3.1 element selectors.css" />
+    <title>CSS | Part 3 - CSS Selectors | id Selector</title>
+    <link rel="stylesheet" href="3.2 id selector.css" />
   </head>
   <body>
     <!-- Part 03: CSS Selectors! -->
@@ -26,7 +26,14 @@
 
     <!-- 2.2 - change the text color "green" of paragraph tag using element selector -->
 
-    <p>
+    <!-- 3. id Selector -->
+
+    <!-- 3 - give "unique id" to all the "p" paragraph elements in HTML document -->
+    <!-- 3 - define individual text colors for all the "unique id" -->
+
+    <!-- 3 - define color "magenta" to "para1" -->
+
+    <p id="para1">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas nam eveniet
       omnis non saepe voluptatem. Ullam aut sequi ipsa repellat. Fugiat, tenetur
       rem delectus libero accusamus unde ipsa, tempora aspernatur ducimus
@@ -40,18 +47,28 @@
       exercitationem laudantium.
     </p>
 
-    <p>
+    <!-- 3 - define color "blue" to "para2" -->
+
+    <p id="para2">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis quidem
       rem harum!
     </p>
-    <p>
+
+    <!-- 3 - define color "orange" to "para3" -->
+
+    <p id="para3">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, est.
       Quas minus adipisci libero.
     </p>
 
     <!-- 2.3 - change the text color of button to "purple" and set text color "white" for buttons using element selector -->
 
-    <button>Sign up</button>
+    <!-- 3.1 - give the same id "para3" to the frst button element -->
+    <!-- 3.1 - give same id "para3" for 2 different elements -->
+    <!-- 3.1 - same style will apply on button, as the above paragraph tag which has id "para3" -->
+    <!-- the changes will be text color of 1st button have been changed from "white" to "orange" -->
+
+    <button id="para3">Sign up</button>
     <button>Log in</button>
 
     <br />

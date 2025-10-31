@@ -35,3 +35,32 @@ button {
   background-color: purple;
   color: white;
 }
+
+/* 3. The id selector */
+
+/* define color magenta for para1 */
+
+#para1 {
+    color: magenta;
+}
+
+/* define color blue for para2 */
+
+#para2 {
+    color: blue;
+}
+
+/* define color orange for para3 */
+
+#para3 {
+    color: orange;
+}
+
+/* the above id "#para3" have been given to butons also */
+/* 2 - same id "para3" for 2 different elements, see what happen in output */
+
+/* #para3 {
+  color: black;
+  background-color: gold;
+  padding: 5px;
+} */

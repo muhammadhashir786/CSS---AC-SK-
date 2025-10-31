@@ -70,22 +70,25 @@ and we can understand/take "id" as "another name" of every HTML elements.
 but the id should always be unique for all the HTML elements.
 id always define in the start tag of HTML elements.
 
-why we give the unique id to HTML elements?
+why we give the "unique id" to HTML elements?
 
-we give the unique id to every elements in the HTML document, so that we can target or define specific styles for only that "id element" in the CSS from all the other elements in all our the HTML document.
+we give the unique id to every elements in the HTML document, so that we can target or define specific styles for only that "id element" in the CSS, from all the other elements in all our the HTML document.
 
-we call the id selector with "#" in css file and then write the value of id.
+we call the id selector with "#" then write the value of id to give styles to this id in CSS file.
 
-we can give same id for multiple elements, it will work but this is bad practise
-a professional coder does not do this, so it is not recommended.
+we can give same id for multiple elements, it will work but it is wrong and this is bad practise, a professional coder does not do this, so it is not recommended.
+id is not to give same id to multiple elements.
+For this, we use "class" for multiple elements.
 
-Sytnax:
+Syntax:
 
 HTML code:
 
     <p id="value">some content</p>
 
 CSS code:
+
+select id in css:
 
 #value {
 
@@ -120,18 +123,19 @@ CSS Code:
 
 Class Selector:
 
-same as id but opposite to id.
+class is same as id but opposite to id.
+the value of class will be same for many elements 
 we can give same class to multiple elements.
-we can target many different HTML elements by giving same class and define styles for all that elements at once.
+if we want to target a specific group of elements in the HTML document, we can give the same class to that elements
+if we want to give same style to multiple elements, then we can give same class to all that elements
+we can target many different HTML elements by giving same class and define styles for all that elements at once by targetting 1 class and define some property and value to that class.
 class is not unique for all the HTML elements.
 
 we can define same style for many elements by giving same class to that elements,
-then call that class in css file,
-and define the style for all that elements at once.
-
-we can call the class selector in css file by dot "." and then type the value of class and give style to it.  
+then call that class in css file and give property and value to it, and define the style for all that elements at once.
+we call the class selector in css file by dot "." and then type the value of class and give styles to this class.
 
 code available in html and css file!
 
-
+the most used selectors in css are id and class selector.
 

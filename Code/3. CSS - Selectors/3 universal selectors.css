@@ -1,5 +1,9 @@
-/* Part 3: Universal Selector */
+/* Part 3: Selectors */
+
+/* Universal Selector */
+
+/* set the color blue for all the HTML elements using universal selector */
 
 * {
-    color: blue;
+  color: blue;
 }

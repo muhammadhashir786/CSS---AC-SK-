@@ -172,6 +172,8 @@ external - create external file and link it with html document using link tag
 
 External CSS is the most used and practical method to write CSS for html file.
 
+the highest priority gives to those jo head k ander bad m likha gya ho "style tag" or "style.css" m se, or in 3ino m sab se ziada priority "inline css" ki hoti hai. 
+
 Note:
 
 we don't try to change the styles by "inline" or "internal" css, that are written in "external css file",
