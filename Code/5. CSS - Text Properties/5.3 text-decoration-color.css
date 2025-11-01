@@ -1,0 +1,73 @@
+/* Chapter 5: Text Property */
+
+/* 2.1 Text Decoration Color Property */
+
+/* 4 values of text decoration line property */
+
+#first {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+#second {
+  text-decoration-line: overline;
+  text-decoration-color: blue;
+
+}
+
+#third {
+  text-decoration-line: line-through;
+  text-decoration-color: goldenrod;
+
+}
+
+#fourth {
+  text-decoration-line: none;
+  text-decoration-color: green;
+
+}
+
+/* we don't need to define any line for links (anchor tag) */
+/* because links have already "underline" value */
+/* se we direct define the text decoration color property */
+
+#link1 {
+  text-decoration-color: rgb(255, 0, 179);
+}
+
+/* second link display without underline */
+
+#link2 {
+  text-decoration-line: none;
+}
+
+/* define multiple lines at a time in a text */
+
+/* define 2 lines */
+
+#multiple-lines-1 {
+  text-decoration-line: overline underline;
+  text-decoration-color:brown;
+
+}
+
+/* define 3 lines */
+
+#multiple-lines-2 {
+  text-decoration-line: overline underline line-through;
+  text-decoration-color:chartreuse;
+
+}
+
+/* define 4 lines */
+
+/* if we define value "none" with other values */
+/* then the priority goes to "none" and text will display without lines */
+
+#multiple-lines-3 {
+  text-decoration-line: overline underline line-through none;
+}
+
+#multiple-lines-4 {
+  text-decoration-line: overline none underline line-through;
+}

@@ -1,0 +1,12 @@
+Chapter 5: CSS Text Properties
+
+2.1 text-decoration-color property:
+
+the text-decoration-color property defines the color of the "defined line" in the text.
+
+Note: to use this property in the text, we must define any line in the text, means we must use the text-decoration-line property.
+
+there are no values of text-decoration-color property.
+we define the color for line same as the color property
+
+

@@ -1,0 +1,16 @@
+Chapter 5: CSS Text Properties
+
+2.2 text-decoration-style property:
+
+the text-decoration-style property defines the different types of styles for the decorative line in the text.
+
+Note: to use this property in the text, we must define any line and color (which is optional) for the text, means we must use the text-decoration-line property and text-decoration-color property which is optional.
+
+5 Values of text-decoration-style property:
+
+solid - display a solid straight line
+double - display 2 lines
+dotted - display dotted lines
+dashed - display dashed lines
+wavy - display wavy lines
+

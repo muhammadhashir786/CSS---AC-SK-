@@ -1,0 +1,54 @@
+/* Chapter 5: Text Property */
+
+/* 2. Text Decoration Line Property */
+
+/* 4 values of text decoration line property */
+
+#first {
+  text-decoration-line: underline;
+}
+
+#second {
+  text-decoration-line: overline;
+}
+
+#third {
+  text-decoration-line: line-through;
+}
+
+#fourth {
+  text-decoration-line: none;
+}
+
+/* second link display wihtout underline */
+
+#link2 {
+  text-decoration-line: none;
+}
+
+/* 3 - define multiple lines at a time in a text  */
+
+/* define 2 lines */
+
+#multiple-lines-1 {
+  text-decoration-line: overline underline;
+}
+
+/* define 3 lines */
+
+#multiple-lines-2 {
+  text-decoration-line: overline underline line-through;
+}
+
+/* define 4 lines */
+
+/* if we define value "none" with other values */
+/* then the priority goes to "none" and text will display without lines */
+
+#multiple-lines-3 {
+  text-decoration-line: overline underline line-through none;
+}
+
+#multiple-lines-4 {
+  text-decoration-line: overline none underline line-through;
+}

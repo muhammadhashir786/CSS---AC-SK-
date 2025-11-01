@@ -3,19 +3,22 @@ Chapter 5: CSS Text Properties
 
 1. text-align property:
 
-the text-align property defines the direction our text in webpage.
+the text-align property defines the direction of text in the webpage.
 
-6 Values:
+6 Values of text-align property::
 
 1. center - change direction of text to center
-2. left - which is bydefault
+2. left - set bydefault - direction is left 
 3. right - change direction of text to right
 4. start - change direction of text to left
 5. end - change direction of text to right
 6. justify - balanced left and right margins
 
+More About Text Align Property:
+
 the text align property depends on parent element.
-and alignment does not change according to doucment but parent elements. 
-our text parent element is the body tag
+the alignment does not change according to the doucment but change acc to parent elements like body tag. 
+our text's parent element is the body tag
 and our texts are the child tags of body tag
+
 
