@@ -1,0 +1,96 @@
+/* Chapter 5: Text Property */
+
+/* 2.3 Text Decoration Thickness Property */
+
+/* 1 - define thickness for each decorative lines */
+
+#first {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+}
+
+#second {
+  text-decoration-line: overline;
+  text-decoration-color: blue;
+  text-decoration-style: double;
+  text-decoration-thickness: 1px;
+}
+
+#third {
+  text-decoration-line: line-through;
+  text-decoration-color: goldenrod;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 3px;
+}
+
+#fourth {
+  text-decoration-line: none;
+  text-decoration-color: green;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 8px;
+}
+
+#fifth {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 10px;
+}
+
+#sixth {
+  text-decoration-line: line-through;
+  text-decoration-color: orange;
+  text-decoration-style: none;
+  text-decoration-thickness: 2px;
+}
+
+/* define the style wavy for decorative line */
+
+#link1 {
+  text-decoration-color: rgb(255, 0, 179);
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+}
+
+/* second link display without underline */
+
+#link2 {
+  text-decoration-line: none;
+}
+
+/* define multiple lines at a time in a text */
+
+/* define 2 lines */
+
+#multiple-lines-1 {
+  text-decoration-line: overline underline;
+  text-decoration-color: brown;
+  text-decoration-style: double;
+  text-decoration-thickness: 4px;
+}
+
+/* define 3 lines */
+
+#multiple-lines-2 {
+  text-decoration-line: overline underline line-through;
+  text-decoration-color: chartreuse;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+/* define 4 lines */
+
+/* if we define value "none" with other values */
+/* then the priority goes to "none" and text will display without lines */
+
+#multiple-lines-3 {
+  text-decoration-line: overline underline line-through none;
+  text-decoration-thickness: 2px;
+}
+
+#multiple-lines-4 {
+  text-decoration-line: overline none underline line-through;
+  text-decoration-thickness: 4px;
+}

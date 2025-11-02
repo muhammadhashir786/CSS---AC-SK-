@@ -1,0 +1,41 @@
+/* Font Weight Property */
+
+/* 4 values of "font-weight" */
+
+#text1 {
+  font-weight: normal;
+}
+
+#text2 {
+  font-weight: lighter;
+}
+
+#text3 {
+  font-weight: bold; /* heading "h1" has bydefault font-weight is "bold", it remains the same in output */
+}
+
+#text4 {
+  font-weight: bolder;
+}
+
+/* font-weight values between "100-900" */
+
+#text5 {
+  font-weight: 100;
+}
+
+#text6 {
+  font-weight: 250;
+}
+
+#text7 {
+  font-weight: 400;
+}
+
+#text8 {
+  font-weight: 600;
+}
+
+#text9 {
+  font-weight: 900;
+}
