@@ -1,0 +1,8 @@
+Chapter 5: CSS Text Properties
+
+2.3 text-decoration-thickness property:
+
+the text-decoration-thickness property defines the thickness of the decorative line in the text.
+
+Note: to use this property in the text, we must define any line and color or style (which is optional) for the text, means we must use the text-decoration-line property, and the optional property are text-decoration-color and text-decoration-style property.
+
