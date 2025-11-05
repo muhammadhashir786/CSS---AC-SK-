@@ -1,0 +1,22 @@
+p {
+    text-align: center;
+}
+
+/* Font Family */
+
+/* define font family for id one */
+#one {
+    font-family: "Arial";
+}
+
+/* define font family for id two */
+
+#two {
+    font-family: "roboto";
+}
+
+/* define font family for id three */
+
+#three {
+    font-family: 'Segoe UI';
+}

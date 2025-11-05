@@ -188,6 +188,8 @@ View Page Source
 Inspect Element
 
 there is an element selector in Inspect element
+blue color area is the content part 
+orange color area is the margin 
 
 
 Part 1 Notes Completed Here!
