@@ -1,0 +1,86 @@
+/* Part 8 - Box Model */
+
+/* 1 - height */
+
+#text1 {
+  height: 100px; /* height */
+
+  /* to see the height we give background color to that element */
+  background-color: lightskyblue;
+
+  /* we can also change the height */
+
+  height: 50px; /* height */
+}
+
+#text2 {
+  background-color: lightcoral;
+}
+
+/* 2 - width */
+
+#text3 {
+  height: 100px;
+  width: 200px; /* width */
+
+  /* to see the height and width we give background color to that element */
+  background-color: lightgreen;
+
+  /* we can also change the width */
+
+  width: 500px; /* width */
+}
+
+#text4 {
+  background-color: lightcoral;
+}
+
+/* 3 - border */
+
+#text5 {
+  background-color: lightsalmon;
+
+  /* now add border */
+
+  border-width: 2px;
+  border-style: solid;
+
+  /* change the width of border */
+
+  border-width: 6px;
+}
+
+/* define border color */
+
+#text6 {
+  background-color: lightpink;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+
+/* change the border style to "dashed" */
+
+#text7 {
+  background-color: lightsteelblue;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blue;
+}
+
+/* border short-hand property */
+
+#text8 {
+  width: 800px;
+  background-color: lightgreen;
+  text-align: center;
+
+  /* border short-hand property */
+
+  border: 2px solid black;
+
+  /* change the border */
+
+  border: 8px double red;
+}
