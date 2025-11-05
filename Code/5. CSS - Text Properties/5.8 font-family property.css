@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* style for paragraphs */
 
@@ -19,4 +20,27 @@ p, h1 {
 
 #four {
   font-family: "Segoe UI";
+=======
+p {
+    text-align: center;
+}
+
+/* Font Family */
+
+/* define font family for id one */
+#one {
+    font-family: "Arial";
+}
+
+/* define font family for id two */
+
+#two {
+    font-family: "roboto";
+}
+
+/* define font family for id three */
+
+#three {
+    font-family: 'Segoe UI';
+>>>>>>> 0496ea8df8e5a46518209315256079e9c4384b87
 }
