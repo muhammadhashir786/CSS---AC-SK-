@@ -184,4 +184,10 @@ then we got confused and will not remember that what styles defined in external 
 and we can not do this in companies and large projects.
 we try to use only external css
 
+View Page Source
+Inspect Element
+
+there is an element selector in Inspect element
+
+
 Part 1 Notes Completed Here!

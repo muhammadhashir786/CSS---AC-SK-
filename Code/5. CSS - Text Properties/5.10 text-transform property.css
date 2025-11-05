@@ -1,0 +1,23 @@
+/* style for id "one" */
+
+#one {
+    text-transform: lowercase;
+}
+
+#two {
+    text-transform: uppercase;
+}
+
+#three {
+    text-transform: capitalize;
+}
+
+#four {
+    text-transform: none;
+}
+
+.text {
+  font-weight: bold;
+  font-style: italic;
+}
+

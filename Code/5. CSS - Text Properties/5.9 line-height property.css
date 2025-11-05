@@ -1,0 +1,28 @@
+/* define line height 2px for id "one" */
+
+#one {
+  line-height: 2px;
+}
+
+/* define line height 20px for id "two" */
+
+#two {
+  line-height: 20px;
+}
+
+/* define line height 50px for id "three" */
+
+#three {
+  line-height: 50px;
+}
+
+/* define line-height "normal" for id "four" */
+
+#four {
+  line-height: normal;
+}
+
+.text {
+  font-weight: bold;
+  font-style: italic;
+}

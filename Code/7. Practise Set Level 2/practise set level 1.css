@@ -1,0 +1,22 @@
+/* Question 1 */
+
+#h1-center {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Question 2 */
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Question 3 */
+
+#outer {
+  font-size: 25px;
+}
+
+#inner {
+  font-size: 10px;
+}

@@ -1,0 +1,17 @@
+/* change the font size of id "one" */
+
+#one {
+    font-size: 25px;
+}
+
+/* change the font size of id "third" */
+
+#three {
+    font-size: 10px;
+}
+
+/* change the font size of id "four" */
+
+#four {
+    font-size: 1px;
+}

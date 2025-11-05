@@ -1,0 +1,22 @@
+
+/* style for paragraphs */
+
+p, h1 {
+  text-align: center;
+}
+
+#one {
+  font-family: "roboto"; /* browsers have limited font family that browsers recognize and we can set only that font families, but "roboto" may be not included in it, so it will not display in the browser */
+}
+
+#two {
+  font-family: "arial";
+}
+
+#three {
+  font-family: "times"; /* it is the default font family that browsers show in the output */
+}
+
+#four {
+  font-family: "Segoe UI";
+}
