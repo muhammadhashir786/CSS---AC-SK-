@@ -1,0 +1,41 @@
+/* Part 8 - Box Model */
+
+/* set property for div tags */
+
+div {
+  height: 100px;
+  width: 400px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: rgb(236, 255, 139);
+}
+
+/* margin 10px to class "third" */
+
+.third {
+  margin: 10px;
+}
+
+/* margin top 15px to class "fifth" */
+
+.fifth {
+  margin-top: 15px;
+}
+
+/* margin bottom 20px to class "sixth" */
+
+.sixth {
+  margin-bottom: 20px;
+}
+
+/* margin left 30px to class "seventh" */
+
+.seventh {
+  margin-left: 30px;
+}
+
+/* give different margins to all directions using 1 "margin" property */
+
+.eighth {
+  margin: 0 30px 18px 8px;
+}

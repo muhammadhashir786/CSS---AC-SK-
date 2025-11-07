@@ -1,0 +1,44 @@
+/* Practise Set 3 (Level 2) */
+
+/* Question 1:  */
+
+.first {
+  height: 100px;
+  width: 100px;
+
+  background-color: green;
+  border-radius: 50%;
+}
+
+/* HomeWork  */
+
+.second {
+  background-color: black;
+  text-align: center;
+  width: 80px;
+  padding: 25px;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.one {
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+.two {
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+
+.three {
+  background-color: blue;
+}
