@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 8 | CSS Box Model | Border</title>
+    <link rel="stylesheet" href="8.3 Border.css" />
+  </head>
+  <body>
+    <!-- Part 8 - Box Model -->
+
+    <h1>Box Model</h1>
+
+    <!-- 3 - border -->
+
+    <!-- the boundry of the content is called border -->
+    <!-- the CSS border property defines the border of any element -->
+
+    <!-- there are 3 things in the border: -->
+
+    <!-- 1. border width -->
+    <!-- 2. border color -->
+    <!-- 3. border style -->
+
+    <!-- border width defines in "px" -->
+    <!-- border color defines in color values -->
+    <!-- there are many styles of border -->
+
+    <!-- solid -->
+    <!-- dotted -->
+    <!-- dashed -->
+    <!-- double -->
+    <!-- groove -->
+    <!-- hidden -->
+    <!-- none -->
+    <!-- ridge -->
+
+    <!-- if we give only "border-width" then it will not display in the browser -->
+    <!-- along with "border-width" property, we need to define the "border-style" property to display in the webpage and "border-color" property also, which is optional, if you want border color then define it -->
+
+    <!-- but if we did not define any color for the border then bydefault it will display in black color -->
+
+    <h2>Border</h2>
+    <div id="text5">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+      blanditiis corporis perferendis excepturi omnis accusamus suscipit.
+      Doloribus laudantium temporibus alias repudiandae consequatur obcaecati
+      quidem incidunt assumenda ab nesciunt? Error consequatur, voluptatem
+      ducimus provident ea iusto reiciendis accusamus? Nemo minus natus quidem
+      eius accusantium? Dolorum expedita repellendus molestias eum doloremque
+      accusamus fugit nisi cumque velit molestiae, quo architecto aspernatur.
+      Odio maiores sed porro, doloremque laborum repellendus cupiditate modi
+      accusamus ab. Maiores ea dolores similique id earum suscipit harum numquam
+      cumque incidunt.
+    </div>
+
+    <br />
+
+    <div id="text6">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo,
+      molestiae impedit ad consequatur minima minus qui illo assumenda iusto?
+      Eveniet quasi officia libero, laboriosam laudantium atque nihil dolor
+      dolores suscipit, illum, quibusdam debitis! Est, voluptatem neque
+      assumenda fugit sint consequuntur ipsa facilis voluptas vel quidem!
+      Similique inventore temporibus assumenda!
+    </div>
+
+    <br />
+
+    <div id="text7">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero eaque quas
+      quae, earum adipisci eius. Distinctio hic ipsa, autem quaerat doloremque
+      debitis laudantium, commodi dolor sequi non esse expedita! Dolorem omnis
+      eaque, quae cum eius quas eveniet id, iusto consequuntur veniam explicabo
+      officiis esse a quasi facere iste eligendi laboriosam.
+    </div>
+
+    <br />
+
+    <!-- 1. Border Shorthand Property -->
+
+    <!-- we set 3 major properties for border: -->
+
+    <!-- border-width -->
+    <!-- border-style -->
+    <!-- border-color -->
+
+    <!-- for this we need to define 3 properties, but there is a shorthand property to define border at one line using only 1 property -->
+
+    <!-- Syntax of border: -->
+
+    <!-- border: width style color -->
+    <!-- border: 2px solid black -->
+
+    <div id="text8">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quas.
+    </div>
+
+    <!-- 2. Border Radius Property -->
+
+    <!-- border radius defines the rounded corners or edges of the borders -->
+    <!-- we can define border radius in "px" and "%". -->
+    <!-- border radius ki value jitni ziada hogi utna ziada rounded edges honge -->
+    <!-- border radius ki value jitni kam hogi utna kam rounded edges honge -->
+
+    <!-- we can define border radius for all the edges of the border at once: -->
+
+    <!-- border-radius: ; -->
+
+    <!-- we can also define border radius separately for each corners: -->
+
+    <!-- border-radius-top -->
+    <!-- border-radius-bottom -->
+    <!-- border-radius-left -->
+    <!-- border-radius-right -->
+
+    <!-- if height and width of any box are same and we give border radius 50% -->
+    <!-- that box will become circle -->
+
+    <h2>Border Radius</h2>
+
+    <div class="box">box 1</div>
+    <div class="box">box 2</div>
+    <div class="box">box 3</div>
+
+    <br />
+
+    <div class="circle">box 4</div>
+    <div class="circle">box 5</div>
+    <div class="circle">box 6</div>
+  </body>
+</html>

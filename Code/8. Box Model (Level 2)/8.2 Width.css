@@ -1,0 +1,19 @@
+/* Part 8 - Box Model */
+
+/* 2 - width */
+
+#text3 {
+  height: 100px;
+  width: 200px; /* width */
+
+  /* to see the height and width we give background color to that element */
+  background-color: lightgreen;
+
+  /* we can also change the width */
+
+  width: 500px; /* width */
+}
+
+#text4 {
+  background-color: lightcoral;
+}

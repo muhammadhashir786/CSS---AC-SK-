@@ -1,40 +1,5 @@
 /* Part 8 - Box Model */
 
-/* 1 - height */
-
-#text1 {
-  height: 100px; /* height */
-
-  /* to see the height we give background color to that element */
-  background-color: lightskyblue;
-
-  /* we can also change the height */
-
-  height: 50px; /* height */
-}
-
-#text2 {
-  background-color: lightcoral;
-}
-
-/* 2 - width */
-
-#text3 {
-  height: 100px;
-  width: 200px; /* width */
-
-  /* to see the height and width we give background color to that element */
-  background-color: lightgreen;
-
-  /* we can also change the width */
-
-  width: 500px; /* width */
-}
-
-#text4 {
-  background-color: lightcoral;
-}
-
 /* 3 - border */
 
 #text5 {
@@ -83,4 +48,34 @@
   /* change the border */
 
   border: 8px double red;
+}
+
+/* 2. Border Radius */
+
+/* define border radius in "px" */
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  border: 2px solid red;
+  text-align: center;
+
+  /* give border radius */
+
+  border-radius: 10px;
+}
+
+/* define border radius in "%" */
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: lightskyblue;
+  border: 2px solid blue;
+  text-align: center;
+
+  /* give border radius */
+
+  border-radius: 50%;
 }

@@ -1,0 +1,66 @@
+/* Part 8 - Box Model */
+
+* {
+  text-align: justify;
+}
+
+/* 4 - padding */
+
+/* no padding */
+
+.txt1 {
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+/* padding 20px */
+
+.txt2 {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+/* padding 40px */
+
+.txt3 {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 40px;
+}
+
+/* with padding top */
+
+.txt4 {
+  background-color: lightpink;
+  border: 2px solid magenta;
+  padding-top: 30px;
+}
+
+/* with padding top and padding left */
+
+.txt5 {
+  background-color: lightpink;
+  border: 2px solid magenta;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+/* add padding without showing direction */
+
+/* with padding top right and left */
+
+.txt6 {
+  background-color: lightpink;
+  border: 2px solid magenta;
+  padding: 15px 30px 0 25px;
+}
+
+/* with padding bottom and padding right */
+
+.txt7 {
+  background-color: lightpink;
+  border: 2px solid magenta;
+
+  padding: 0 20px 30px 0;
+}

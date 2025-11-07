@@ -1,0 +1,18 @@
+/* Part 8 - Box Model */
+
+/* 1 - height */
+
+#text1 {
+  height: 100px; /* height */
+
+  /* to see the height we give background color to that element */
+  background-color: lightskyblue;
+
+  /* we can also change the height */
+
+  height: 50px; /* height */
+}
+
+#text2 {
+  background-color: lightcoral;
+}
