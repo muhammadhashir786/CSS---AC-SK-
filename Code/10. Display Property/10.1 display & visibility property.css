@@ -50,3 +50,16 @@ button {
 .box3 {
   background-color: blue;
 }
+
+/* solution of drawback of "display inline" */
+/* use display "inline-block" */
+
+.sol-box {
+  display: inline-block;
+}
+
+/* 4. display "none" */
+
+.rem-box {
+  display: none;
+}

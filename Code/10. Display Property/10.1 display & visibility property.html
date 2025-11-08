@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Part 10 | Display Property</title>
-    <link rel="stylesheet" href="10.1 display property.css" />
+    <title>Part 10 | Display & Visibility Property</title>
+    <link rel="stylesheet" href="10.1 display & visibility property.css" />
   </head>
   <body>
-    <!-- 10.1 Dispplay Property -->
+    <!-- 10.1 Display & Visibility Property -->
 
     <!-- 1 - Display property have 4 values: -->
 
-    <!-- 1. inline -->
-    <!-- 2. block -->
-    <!-- 3. inline-block -->
-    <!-- 4. none -->
+    <!-- 1. inline - makes the element to display in the same line and takes necessary width -->
+    <!-- 2. block - makes the element to display in the next line and takes horizontal complete width-->
+    <!-- 3. inline-block - similar to inline element but we can set margin top and bttom, and height, width of the element and the content area takes large space -->
+    <!-- 4. none - it removes the element from the doucment -->
 
     <!-- there are 2 types of elements in html: -->
 
@@ -22,9 +22,9 @@
     <!-- 2. inline element - takes necessary width on screen - span, button, img, a, etc -->
 
     <!-- but we can change the inline or block property of the html element -->
-    <!-- we can made inline element to block element and block element to inline element by using CSS "Display Property" -->
+    <!-- we can made inline element to block element and block element to inline element by using above 4 values of CSS "display property" -->
 
-    <h1>Display Property</h1>
+    <h1>1. Display Property</h1>
 
     <div class="div1">
       this is a div and it takes horizontally complete width on screen
@@ -34,14 +34,21 @@
     <br />
     <br />
 
-    <!-- /* make display inline to "div2" */ -->
+    <!-- 1. inline -->
 
+    <!-- make display inline to "div2" -->
+
+    <h2>Display Inline</h2>
     <div class="div2">
       this is also a div element but it takes only necessary width on screen
     </div>
 
-    <!-- /* make display block to "btn2" */ -->
+    <!-- 2. block -->
+
+    <!-- make display block to "btn2" -->
     <!-- but it does not work -->
+
+    <h2>Display Block</h2>
 
     <button class="btn2">click me</button>
 
@@ -60,6 +67,8 @@
       <div class="box box3">box 3</div>
     </div>
 
+    <!-- 3. Inline-Block -->
+
     <!-- to solve this problem, we use 3rd value of display property which is "inline-block" -->
 
     <!-- inline-block value is similar to inline element, but we can set margin and padding in this value -->
@@ -69,9 +78,28 @@
     <h2>solution of drawback of "display inline":</h2>
 
     <div class="main2">
-      <div class="box box1 ">box 4</div>
-      <div class="box box2">box 5</div>
-      <div class="box box3">box 6</div>
+      <div class="box box1 sol-box">box 4</div>
+      <div class="box box2 sol-box">box 5</div>
+      <div class="box box3 sol-box">box 6</div>
+    </div>
+
+    <!-- above boxes are perfect -->
+    <!-- content area ka size bhi increase hogya -->
+    <!-- height and width bhi change kar sakte hn ab -->
+    <!-- top and bootom p margin bhi agya -->
+
+    <!-- 4. None -->
+
+    <!-- display none removes or delete the element from the document -->
+    <!-- us element ki jagah bhi khatam hojati hai, dispplay none se -->
+
+    <!-- if you want to remove or delete or do not show the element in the website then use display "none" -->
+
+    <h2>Display None</h2>
+    <div class="main3">
+      <div class="box box1 sol-box">box 4</div>
+      <div class="box box2 rem-box">box 5</div>
+      <div class="box box3 sol-box">box 6</div>
     </div>
   </body>
 </html>

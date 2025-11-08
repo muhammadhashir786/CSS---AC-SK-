@@ -1,0 +1,35 @@
+.box {
+  color: white;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+/* 5. visibility "none" */
+
+/* does not work */
+
+.vis-none {
+  visibility: none;
+}
+
+/* 6. visibility "hidden" */
+
+.vis-hid {
+  visibility: hidden;
+}
+
