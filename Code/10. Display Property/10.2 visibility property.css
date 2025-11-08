@@ -1,3 +1,7 @@
+/* Part 10.2 - Visibility Property */
+
+/* set properties for boxes */
+
 .box {
   color: white;
   height: 100px;
@@ -31,5 +35,17 @@
 
 .vis-hid {
   visibility: hidden;
+}
+
+/* 7. visibility "collapse" */
+
+.vis-col {
+  visibility: collapse;
+}
+
+/* 9. visibility "visible" */
+
+.vis-vis {
+  visibility: visible;
 }
 
