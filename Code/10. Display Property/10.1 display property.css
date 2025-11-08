@@ -1,0 +1,52 @@
+/* <!-- 10.1 Dispplay Property --> */
+
+/* <!-- 1 - Display property have 4 values: --> */
+
+/* set background color to "div1" */
+
+.div1 {
+  background-color: pink;
+}
+
+/* make display inline to "div2" */
+
+.div2 {
+  background-color: greenyellow;
+  display: inline;
+}
+
+/* set background color for buttons */
+
+button {
+  background-color: purple;
+  color: white;
+}
+
+/* make display block to "btn2" */
+
+.btn2 {
+  display: block;
+}
+
+/* <!-- 2 - Drawback of Display inline --> */
+
+.box {
+  color: white;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+  display: inline;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+}

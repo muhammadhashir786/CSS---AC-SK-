@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part 10 | Display Property</title>
+    <link rel="stylesheet" href="10.1 display property.css" />
+  </head>
+  <body>
+    <!-- 10.1 Dispplay Property -->
+
+    <!-- 1 - Display property have 4 values: -->
+
+    <!-- 1. inline -->
+    <!-- 2. block -->
+    <!-- 3. inline-block -->
+    <!-- 4. none -->
+
+    <!-- there are 2 types of elements in html: -->
+
+    <!-- 1. block element - takes complete width on screen - div, p, h1, etc -->
+    <!-- 2. inline element - takes necessary width on screen - span, button, img, a, etc -->
+
+    <!-- but we can change the inline or block property of the html element -->
+    <!-- we can made inline element to block element and block element to inline element by using CSS "Display Property" -->
+
+    <h1>Display Property</h1>
+
+    <div class="div1">
+      this is a div and it takes horizontally complete width on screen
+    </div>
+    <button class="btn1">click me</button>
+
+    <br />
+    <br />
+
+    <!-- /* make display inline to "div2" */ -->
+
+    <div class="div2">
+      this is also a div element but it takes only necessary width on screen
+    </div>
+
+    <!-- /* make display block to "btn2" */ -->
+    <!-- but it does not work -->
+
+    <button class="btn2">click me</button>
+
+    <br />
+
+    <!-- 2 - Drawback of Display inline -->
+
+    <!-- when we make any block element to inline element using "inline" value of display property,
+    then drawback is that top and bottom margin of that element will remove and we can not set height and width of that element because content area utna hi space lega jitna uska content hai, only right and left margin will apply -->
+
+    <h2>Drawback of Display Inline</h2>
+
+    <div class="main">
+      <div class="box box1">box 1</div>
+      <div class="box box2">box 2</div>
+      <div class="box box3">box 3</div>
+    </div>
+
+    <!-- to solve this problem, we use 3rd value of display property which is "inline-block" -->
+
+    <!-- inline-block value is similar to inline element, but we can set margin and padding in this value -->
+    <!-- agr ham ksi block element ko display inline-block value denge to vo element behave to inline element ki tarah krega but ham us k ander vo saari properties bhi kar sakenge jo pehle uski drawbacks this -->
+    <!-- jese ham height, width, margin or padding set kr sakenge -->
+
+    <h2>solution of drawback of "display inline":</h2>
+
+    <div class="main2">
+      <div class="box box1 ">box 4</div>
+      <div class="box box2">box 5</div>
+      <div class="box box3">box 6</div>
+    </div>
+  </body>
+</html>
