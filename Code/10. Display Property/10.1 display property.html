@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Part 10 | Display & Visibility Property</title>
-    <link rel="stylesheet" href="10.1 display & visibility property.css" />
+    <link rel="stylesheet" href="10.1 display property.css" />
   </head>
   <body>
     <!-- 10.1 Display & Visibility Property -->
@@ -29,21 +29,22 @@
     <div class="div1">
       this is a div and it takes horizontally complete width on screen
     </div>
+
     <button class="btn1">click me</button>
 
     <br />
-    <br />
 
-    <!-- 1. inline -->
+    <!-- 1. "inline" value of display property -->
 
     <!-- make display inline to "div2" -->
 
     <h2>Display Inline</h2>
     <div class="div2">
       this is also a div element but it takes only necessary width on screen
+      because it has display property set to inline
     </div>
 
-    <!-- 2. block -->
+    <!-- 2. "block" value of display property -->
 
     <!-- make display block to "btn2" -->
     <!-- but it does not work -->
@@ -59,7 +60,7 @@
     <!-- when we make any block element to inline element using "inline" value of display property,
     then drawback is that top and bottom margin of that element will remove and we can not set height and width of that element because content area utna hi space lega jitna uska content hai, only right and left margin will apply -->
 
-    <h2>Drawback of Display Inline</h2>
+    <h2>Drawback of Display "Inline"</h2>
 
     <div class="main">
       <div class="box box1">box 1</div>
@@ -67,7 +68,7 @@
       <div class="box box3">box 3</div>
     </div>
 
-    <!-- 3. Inline-Block -->
+    <!-- 3. Inline-Block value of display property -->
 
     <!-- to solve this problem, we use 3rd value of display property which is "inline-block" -->
 
@@ -75,7 +76,7 @@
     <!-- agr ham ksi block element ko display inline-block value denge to vo element behave to inline element ki tarah krega but ham us k ander vo saari properties bhi kar sakenge jo pehle uski drawbacks this -->
     <!-- jese ham height, width, margin or padding set kr sakenge -->
 
-    <h2>solution of drawback of "display inline":</h2>
+    <h2>Inline-Block solution of drawback of display "inline":</h2>
 
     <div class="main2">
       <div class="box box1 sol-box">box 4</div>
@@ -92,8 +93,9 @@
 
     <!-- display none removes or delete the element from the document -->
     <!-- us element ki jagah bhi khatam hojati hai, dispplay none se -->
+    <!-- the space of element does not reserved -->
 
-    <!-- if you want to remove or delete or do not show the element in the website then use display "none" -->
+    <!-- if you want to remove or delete or do not show the element in the website with no reserve space then use display "none" -->
 
     <h2>Display None</h2>
     <div class="main3">
