@@ -1,0 +1,115 @@
+/* Relative Units */
+
+/* % */
+
+/* main box 1 */
+
+.main-box {
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+
+/* sub box height 50px  */
+
+.box1 {
+  height: 50px;
+  background-color: lightcoral;
+}
+
+/* sub box height 100px  */
+
+.box2 {
+  height: 100px;
+  background-color: lightcoral;
+}
+
+/* sub box height 50px and width 30px */
+
+.box3 {
+  width: 30px;
+  height: 50px;
+  background-color: lightcoral;
+}
+
+/* sub box height 50px and width 50px */
+
+.box4 {
+  width: 50px;
+  height: 50px;
+  background-color: lightcoral;
+}
+
+.box5 {
+  width: 30%;
+  height: 50px;
+  background-color: lightcoral;
+}
+
+/* main box 2 */
+
+.main-box2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+
+/* sub box height 50% and width 30% */
+
+.box6 {
+  width: 60%;
+  height: 50%;
+  background-color: lightcoral;
+}
+
+/* sub box height 100% and width auto equal to main-box2  */
+
+.box7 {
+  height: 50%;
+  background-color: lightcoral;
+}
+
+/* sub box margin 10%, height 100% and width auto equal to main-box2  */
+
+.box8 {
+  height: 100%;
+  margin-left: 10%;
+  background-color: lightcoral;
+}
+
+/* sub box margin 40%, height 100% and width auto equal to main-box2  */
+
+.box9 {
+  height: 100%;
+  margin-left: 40%;
+  background-color: lightcoral;
+}
+
+/* sub box margin-left: 50%, margin-top: 10%, height 100% and width auto equal to main-box2  */
+
+.box10 {
+  height: 100%;
+  margin-top: 10%;
+  margin-left: 50%;
+  background-color: lightcoral;
+}
+
+/* sub box margin-left 15%, height 100% and width auto equal to main-box2  */
+/* main box 3 - padding-top 10% */
+
+.main-box3 {
+  height: 200px;
+  width: 200px;
+  padding-top: 10%;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+
+.box11 {
+  height: 100%;
+  margin-left: 15%;
+  background-color: lightcoral;
+}
+
