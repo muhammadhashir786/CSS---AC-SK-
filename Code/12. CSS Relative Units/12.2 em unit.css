@@ -1,6 +1,6 @@
-/* Rem Unit of CSS */
+/* Em Unit of CSS */
 
-/* rem used for font size */
+/* Em used for font size */
 
 .main-box {
   background-color: red;
@@ -20,7 +20,7 @@
   margin-left: 40px;
 
   /* jitna font-size main-box ka hai uska doule font-size box 2 ka hoga */
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .box2 {
@@ -29,7 +29,7 @@
   margin-left: 40px;
 
   /* jitna font-size main-box ka hai uska 4th times font-size box 2 ka hoga */
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .box3 {
@@ -38,7 +38,7 @@
   margin-left: 40px;
 
   /* jitna font-size main-box ka hai uska half times font-size box 3 ka hoga */
-  font-size: 0.5rem;
+  font-size: 0.5em;
 }
 
 .main-box2 {
@@ -61,5 +61,5 @@
 
   /* not work */
 
-  font-size: 1rem;
+  font-size: 1em;
 }

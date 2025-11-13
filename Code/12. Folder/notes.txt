@@ -1,0 +1,21 @@
+CSS Units:
+
+Absolute unit 
+Relative unit 
+
+Absolute unit:
+
+Pixel "px" is the most popular and used unit of Absolute unit
+cm, mm, in are also Absolute units 
+
+Relative unit: 
+
+unit that is not Absolute, it can depends
+the most popular and used Relative units are: 
+
+%
+em
+rem
+
+"%" define a size that is relative to its parent 
+
